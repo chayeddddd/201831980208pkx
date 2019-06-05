@@ -13,6 +13,12 @@ namespace _201831980208pkx.Controllers
             return View();
         }
 
+        public ActionResult MyAction()
+        {
+            ViewBag.Message = "这是我第一个Action";
+
+            return View();
+        }
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
